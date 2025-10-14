@@ -1,14 +1,31 @@
-# --------------------------------------------------------------------
-# Custom additions for PQC Lab
-# --------------------------------------------------------------------
-# Ignore generated benchmark data and plots
-*.csv
-*.png
+# Ignore Docker build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
 *.log
+*.tmp
+*.bak
+*.egg-info/
+.env
+.venv/
+.opt/
+opt/
+src/
+build/
+dist/
+.idea/
+.vscode/
 
-# Ignore local archives and data exports
+# Ignore local Docker files
 *.tar
-*.zip
+*.img
+*.pid
+*.sock
 
-# Ignore macOS Finder and system files
-.DS_Store
+# Ignore Python virtual environments
+venv/
+ENV/
+env/
+
