@@ -1,0 +1,230 @@
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:33:00
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     143972 |          3.000 |          20.837 |      2.422 |                     60431 |       6950
+encaps                               |     122801 |          3.000 |          24.430 |      0.970 |                     70865 |       2481
+decaps                               |     144480 |          3.000 |          20.764 |      2.962 |                     60223 |       8494
+Ended at 2025-10-19 12:33:09
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:33:09
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     149163 |          3.000 |          20.112 |      2.246 |                     58325 |       6378
+encaps                               |     122024 |          3.000 |          24.585 |      3.101 |                     71315 |       8891
+decaps                               |     146775 |          3.000 |          20.439 |      3.043 |                     59281 |       8748
+Ended at 2025-10-19 12:33:18
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:33:18
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     152350 |          3.000 |          19.692 |      1.231 |                     57111 |       3314
+encaps                               |     121588 |          3.000 |          24.674 |      3.021 |                     71574 |       8667
+decaps                               |     149362 |          3.000 |          20.086 |      2.990 |                     58255 |       8592
+Ended at 2025-10-19 12:33:27
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:33:27
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     148112 |          3.000 |          20.255 |      1.401 |                     58745 |       3963
+encaps                               |     118312 |          3.000 |          25.357 |      4.216 |                     73553 |      12155
+decaps                               |     150331 |          3.000 |          19.956 |      2.917 |                     57881 |       8392
+Ended at 2025-10-19 12:33:36
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:33:36
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     148235 |          3.000 |          20.238 |      3.247 |                     58695 |       9284
+encaps                               |     117400 |          3.000 |          25.554 |      3.759 |                     74123 |      10820
+decaps                               |     154832 |          3.000 |          19.376 |      1.480 |                     56200 |       4157
+Ended at 2025-10-19 12:33:45
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:33:45
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     146431 |          3.000 |          20.488 |      2.823 |                     59421 |       8095
+encaps                               |     119966 |          3.000 |          25.007 |      3.281 |                     72541 |       9418
+decaps                               |     155460 |          3.000 |          19.298 |      1.232 |                     55973 |       3439
+Ended at 2025-10-19 12:33:55
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:33:55
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     144934 |          3.000 |          20.699 |      2.868 |                     60026 |       8226
+encaps                               |     119608 |          3.000 |          25.082 |      2.962 |                     72759 |       8482
+decaps                               |     145209 |          3.000 |          20.660 |      2.889 |                     59920 |       8284
+Ended at 2025-10-19 12:34:04
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:34:04
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     149012 |          3.000 |          20.133 |      2.514 |                     58389 |       7168
+encaps                               |     123557 |          3.000 |          24.280 |      3.413 |                     70430 |       9807
+decaps                               |     147079 |          3.000 |          20.397 |      3.067 |                     59158 |       8821
+Ended at 2025-10-19 12:34:13
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:34:13
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     148470 |          3.000 |          20.206 |      1.217 |                     58601 |       3403
+encaps                               |     117500 |          3.000 |          25.532 |      2.918 |                     74064 |       8352
+decaps                               |     150660 |          3.000 |          19.912 |      3.187 |                     57753 |       9196
+Ended at 2025-10-19 12:34:22
+Configuration info
+==================
+Target platform:  x86_64-Linux-6.14.0-33-generic
+Compiler:         gcc (13.3.0)
+Compile options:  [-Wa,--noexecstack;-O3;-fomit-frame-pointer;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-Wbad-function-cast]
+OQS version:      0.14.1-dev (major: 0, minor: 14, patch: 1, pre-release: -dev)
+Git commit:       52169a1edfaf8b5f1593ef3a002e2553f33271a0
+OpenSSL enabled:  No
+AES:              NI
+SHA-2:            C
+SHA-3:            AVX2
+OQS build flags:  OQS_DIST_BUILD OQS_LIBJADE_BUILD OQS_OPT_TARGET=generic CMAKE_BUILD_TYPE=Release 
+CPU exts active:  ADX AES AVX AVX2 BMI1 BMI2 PCLMULQDQ POPCNT SSE SSE2 SSE3
+Speed test
+==========
+Started at 2025-10-19 12:34:22
+Operation                            | Iterations | Total time (s) | Time (us): mean | pop. stdev | CPU cycles: mean          | pop. stdev
+------------------------------------ | ----------:| --------------:| ---------------:| ----------:| -------------------------:| ----------:
+Kyber1024                            |            |                |                 |            |                           |           
+keygen                               |     148214 |          3.000 |          20.241 |      1.262 |                     58703 |       3509
+encaps                               |     117877 |          3.000 |          25.450 |      4.387 |                     73824 |      12660
+decaps                               |     148432 |          3.000 |          20.211 |      2.446 |                     58622 |       6964
+Ended at 2025-10-19 12:34:31

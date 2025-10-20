@@ -1,0 +1,42 @@
+1️⃣ Open PowerShell as Administrator
+
+Press Start
+
+Type PowerShell
+
+Right-click Windows PowerShell → Run as Administrator
+
+2️⃣ Allow script execution (one-time)
+Set-ExecutionPolicy Bypass -Scope Process -Force
+
+
+3️⃣This temporarily allows PowerShell to run local scripts in this session.
+ Run it
+
+From the same PowerShell window:
+
+.\prepare_wsl.ps1
+
+4️⃣ Create your Ubuntu username & password
+
+If this is your first Ubuntu launch:
+
+After running the PowerShell script, open the Start Menu → Ubuntu
+
+It will say something like:
+
+Installing, this may take a few minutes...
+Please create a default UNIX user account.
+Enter new UNIX username:
+
+
+Enter your desired username (e.g., auadams)
+
+Enter your password (it won’t show characters — just type and press Enter twice)
+
+You’ll then land at your Ubuntu shell:
+
+auadams@DESKTOP-XXXX:~$
+
+
+✅ At this point, your Windows + WSL2 + Ubuntu environment is ready.

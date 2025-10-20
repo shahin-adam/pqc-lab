@@ -1,0 +1,10 @@
+algorithm,operation,mean_time_us,stdev_time_us,mean_cycles,stdev_cycles
+Kyber512,keygen,9.684,1.605,28044.0,4511.0
+Kyber512,encaps,11.682,1.509,33849.0,4186.0
+Kyber512,decaps,8.684,1.581,25148.0,4387.0
+Kyber768,keygen,15.224,2.396,44127.0,6829.0
+Kyber768,encaps,16.995,1.045,49280.0,2894.0
+Kyber768,decaps,14.312,3.601,41488.0,10364.0
+Kyber1024,keygen,20.241,1.262,58703.0,3509.0
+Kyber1024,encaps,25.45,4.387,73824.0,12660.0
+Kyber1024,decaps,20.211,2.446,58622.0,6964.0

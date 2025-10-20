@@ -1,0 +1,14 @@
+powershell
+wsl -d Ubuntu
+
+sudo chmod +x kyber_bench_setup.sh
+./kyber_bench_setup.sh
+
+or run manual under ubuntu 
+/home/shahin/liboqs/build/tests
+./speed_kem kyber768
+
+cd /mnt/c/Users/Gohar/Downloads/PHD/Meetings/10-10-2025
+./kyber_bench_setup.sh  (default is 10)
+
+RUNS=20 ./kyber_ops_detailed_compare.sh
